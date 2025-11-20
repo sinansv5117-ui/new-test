@@ -1,4 +1,4 @@
-def call():
-    print(f"hi {input('your name')}")
-
-call()
+def call(x):
+    print(f"hi {x}")
+x = input('your name')
+call(x)
